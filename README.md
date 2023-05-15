@@ -6,3 +6,5 @@
 ## remove target: lets you remove targets you've added
 ## view targets: gives you a formatted list of current classes targeted
 ## set email: lets you set the receiver email for when class seats change
+
+## .
