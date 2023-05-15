@@ -31,7 +31,7 @@ program
         const state = {
             targets: [],
             email: options.email ? options.email : email,
-            rate: options.rate ? options.rate * 1000 : 30 * 1000,
+            rate: options.rate ? options.rate * 1000 : 60 * 1000,
         }
 
         setInterval(() => { scan(state, page).catch(console.log) }, state.rate)
